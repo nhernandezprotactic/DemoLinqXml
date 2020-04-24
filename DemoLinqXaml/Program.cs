@@ -4,8 +4,9 @@
     {
         static void Main(string[] args)
         {
-            DemoXml.WriteXmlFile();
-            DemoXml.LoadXmlFile();
+            string masterKey = "pr0t.4.t#ic";
+            DemoXml.WriteXmlFile(masterKey);
+            DemoXml.LoadXmlFile(masterKey);
         }
     }    
 }
