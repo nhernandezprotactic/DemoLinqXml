@@ -7,7 +7,7 @@ using System.Xml.Linq;
 
 namespace DemoLinqXaml
 {
-    public class Write
+    public class DemoXml
     {
         /// <summary>
         /// Create an xml file wich store application settings
@@ -62,8 +62,11 @@ namespace DemoLinqXaml
             #endregion
 
             #region Save Document
-            doc.Save(filepath); 
+            doc.Save(filepath);
             #endregion
+
+            Console.WriteLine("Documento creado");
+            Console.Read();
         }
 
         public static void LoadXmlFile()

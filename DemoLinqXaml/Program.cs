@@ -4,7 +4,8 @@
     {
         static void Main(string[] args)
         {
-            Write.WriteXmlFile();
+            DemoXml.WriteXmlFile();
+            DemoXml.LoadXmlFile();
         }
     }    
 }
